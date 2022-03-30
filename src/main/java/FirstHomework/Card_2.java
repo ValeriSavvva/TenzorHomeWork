@@ -1,3 +1,5 @@
+package FirstHomework;
+
 public class Card_2 implements Comparable{
 
     @Override

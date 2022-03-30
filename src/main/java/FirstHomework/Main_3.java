@@ -1,3 +1,5 @@
+package FirstHomework;
+
 public class Main_3 {
     /*
 

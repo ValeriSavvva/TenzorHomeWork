@@ -1,5 +1,6 @@
-public class Card_1_c{
+package FirstHomework;
 
+public class Card_1_b {
     enum Suit{
         diamonds,
         clubs,
@@ -8,16 +9,9 @@ public class Card_1_c{
     }
     private int rank;
     private Suit suit;
-    static int maxRank=1;
-    public Card_1_c(Suit suit, int rank){
+    public Card_1_b (int rank, Suit suit){
         this.rank = rank;
         this.suit = suit;
-        if(rank > maxRank) maxRank = rank;
-    }
-    public Card_1_c(Suit suit){
-        this.suit = suit;
-        rank = maxRank+1;
-        maxRank++;
     }
     public Suit getSuit(){
         return suit;
