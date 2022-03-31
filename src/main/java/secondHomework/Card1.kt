@@ -1,4 +1,4 @@
-package SecondHomework
+package secondHomework
 
 class Card1 {
     operator fun compareTo(o: Any): Int {

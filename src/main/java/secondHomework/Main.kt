@@ -1,6 +1,6 @@
-package SecondHomework
+package secondHomework
 
-import SecondHomework.Card1
+import secondHomework.Card1
 import java.sql.DriverManager.println
 
 fun main() {
